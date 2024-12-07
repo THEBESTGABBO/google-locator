@@ -55,4 +55,4 @@ def retrieveCookiesFromGoogle(username, password, google_url):
     save_cookies_to_file(cookie_data, file_path)
 
 #Uncomment below code to close the browser  
-#driver.close()
+driver.close()
