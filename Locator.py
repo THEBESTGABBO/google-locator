@@ -9,11 +9,12 @@ def getCoordinates(username):
     coordinates=(latitude, longitude)
     return coordinates
 
-try:
-    location = getCoordinates("youremail@gmail.com") 
-    print(location)
+if __name__="__main__":
+    try:
+        location = getCoordinates("youremail@gmail.com") 
+        print(location)
     
-except:
-    from cookies_retriever import *
-    retrieveCookiesFromGoogle("youremail@gmail.com","yourpassword","https://www.google.com/maps")
+    except:
+        from cookies_retriever import *
+        retrieveCookiesFromGoogle("youremail@gmail.com","yourpassword","https://www.google.com/maps")
     
