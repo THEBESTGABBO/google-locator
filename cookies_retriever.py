@@ -44,7 +44,7 @@ def login(username, password):
     driver.find_element(By.XPATH, "//span[text()='Next']").click()
     time.sleep(2)
 
-def retrieveCookiesFromGoogle(username, password, google_url):
+def retrieveCookiesFromGoogle(username, password, google_url="https://www.google.com/maps"):
     login(username, password)
     driver.get(google_url)
     cookie_data=driver.get_cookies()
