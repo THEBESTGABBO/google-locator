@@ -16,5 +16,5 @@ if __name__="__main__":
     
     except:
         from cookies_retriever import *
-        retrieveCookiesFromGoogle("youremail@gmail.com","yourpassword","https://www.google.com/maps")
+        retrieveCookiesFromGoogle("youremail@gmail.com","yourpassword")
     
