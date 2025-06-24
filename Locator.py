@@ -9,7 +9,7 @@ def getCoordinates(username):
     coordinates=(latitude, longitude)
     return coordinates
 
-if __name__="__main__":
+if __name__=="__main__":
     try:
         location = getCoordinates("youremail@gmail.com") 
         print(location)
