@@ -1,5 +1,5 @@
 # google-locator
-Python script to retrieve google shared location using [selenium](https://selenium-python.readthedocs.io/) to retrieve cookies and [locationsharinglib](https://github.com/costastf/locationsharinglib) to get location from those.
+Python script to retrieve google shared location using [selenium](https://selenium-python.readthedocs.io/) and [locationsharinglib](https://github.com/costastf/locationsharinglib).
 
 # requirements
 Google Chrome or Chromium installed, minimum version 109
